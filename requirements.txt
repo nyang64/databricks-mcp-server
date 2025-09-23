@@ -1,0 +1,5 @@
+# Databricks SDK
+databricks-sdk>=0.18.0
+
+# Additional dependencies for enhanced functionality
+python-dotenv>=1.0.0
