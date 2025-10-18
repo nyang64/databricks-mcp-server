@@ -1,0 +1,15 @@
+name: Manual Trigger Workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  test_run:
+    runs-on: ny-self-hosted-runner
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13' 
+      - run: python -V 
+      - name: print out something
+        run: echo "This is from github aciton run"
