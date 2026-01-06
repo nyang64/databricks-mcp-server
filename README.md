@@ -4,7 +4,9 @@ This MCP (Model Context Protocol) server provides tools for interacting with Dat
 
 The server demonstrates how to implement MCP protocol compliance from scratch, making it an educational example for understanding the underlying protocol mechanics while delivering practical Databricks functionality. 
 
-It was tested on my macbook with claude desktop (0.13.19) and my personal databricks account. See a screenshot of this mcp server working: I was able to list my workspace sub folders correctly via claude desktop -> this databricks mcp server -> my databricks worksapce. `Screenshot 2025-09-22 at 8.04.05 PM.png` 
+It was tested on my macbook with claude desktop (0.13.19) and my personal databricks account. See a screenshot of this mcp server working: I was able to list my workspace sub folders correctly via claude desktop -> this databricks mcp server -> my databricks worksapce. 
+
+![Databricks MCP Server](screenshot.png)
 
 ## Features
 **Full compatibility with MCP clients using protocol version 2024-11-05
